@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.link-profile{
+    text-decoration: none;
+    color: #000000;
+}
+
+.container-btn{
+    display: block;
+    width: 400px;
+    margin: 1em auto;
+}
+.addUser-form{
+    display: block;
+    width: 700px;
+    margin: 1em auto;
+    background-color: rgb(245, 243, 243);
+    padding: 2em;
+}
+span{
+    color: rgb(255, 0, 0);
+}
+.searchUser{
+    display: block;
+    width: 500px;
+    margin: 1em auto;
+    margin-top: 3em;
+}
+.editUser-form{
+    display: block;
+    width: 700px;
+    margin: 1em auto;
+    background-color: rgb(245, 243, 243);
+    padding: 2em;
+    
+}
+img{
+    width: 200px;
+}
+.deleteUser{
+    display: block;
+    width: 500px;
+    margin: 1em auto;
+    background-color: rgb(245, 243, 243);
+    padding: 2em;
+}
+.addManager{
+    display: block;
+    width: 500px;
+    margin: 1em auto;
+    background-color: rgb(245, 243, 243);
+    padding: 2em;
+}
+.unplannedLeave{
+    display: block;
+    width: 500px;
+    margin: 1em auto;
+    background-color: rgb(245, 243, 243);
+    padding: 2em;
+}
+.maternityLeave{
+    display: block;
+    width: 500px;
+    margin: 1em auto;
+    background-color: rgb(245, 243, 243);
+    padding: 2em;
+}
+.compassionateLeave{
+    display: block;
+    width: 500px;
+    margin: 1em auto;
+    background-color: rgb(245, 243, 243);
+    padding: 2em;
+}
+.unpaidLeave{
+    display: block;
+    width: 500px;
+    margin: 1em auto;
+    background-color: rgb(245, 243, 243);
+    padding: 2em;
+}
+.studiesLeave{
+    display: block;
+    width: 500px;
+    margin: 1em auto;
+    background-color: rgb(245, 243, 243);
+    padding: 2em;
+}
+.positionContainer{
+    display: block;
+    width: 500px;
+    margin: 1em auto;
+    background-color: rgb(245, 243, 243);
+    padding: 2em;
+}
+.table-container{
+    display: block;
+    width: 90%;
+    margin: 1em auto;
+}
+.staff-info{
+    display: block;
+    width: 500px;
+    padding: 1em;
+    margin: 1em auto;
+    background-color: rgb(197, 211, 209);
+}
+.leavequota-form{
+    display: block;
+    width: 500px;
+    padding: 1em;
+    margin: 1em auto;
+    background-color: rgb(245, 243, 243);
+}
+@media screen and (max-width: 736px){
+    .addUser-form{
+        width: 90%;
+    }
+    .editUser-form{
+        width: 90%;
+    }
+    .deleteUser{
+        width: 90%;
+    }
+    .searchUser{
+        width: 90%;
+    }
+    .addManager{
+        width: 90%;
+    }
+    .unplannedLeave{
+        width: 90%;
+    }
+    .compassionateLeave{
+        width: 90%;
+    }
+    .maternityLeave{
+        width: 90%;
+    }
+    .unpaidLeave{
+        width: 90%;
+    }
+    .studiesLeave{
+        width: 90%;
+    }
+    .positionContainer{
+        width: 90%;
+    }
+    .staff-info{
+        width: 90%;
+    }
+    .leavequota-form{
+       width: 90%;
+    }
+}
+
+    
+
+@media screen and (max-width: 414px){
+    .addUser-form{
+        width: 90%;
+    }
+    .editUser-form{
+        width: 90%;
+    }
+    .deleteUser{
+        width: 90%;
+    }
+    .searchUser{
+        width: 90%;
+    }
+    .addManager{
+        width: 90%;
+    }
+    .unplannedLeave{
+        width: 90%;
+    }
+    .compassionateLeave{
+        width: 90%;
+    }
+    .maternityLeave{
+        width: 90%;
+    }
+    .unpaidLeave{
+        width: 90%;
+    }
+    .studiesLeave{
+        width: 90%;
+    }
+    .positionContainer{
+        width: 90%;
+    }
+    .staff-info{
+        width: 90%;
+    }
+    .leavequota-form{
+       width: 90%;
+    }
+}
+
+    

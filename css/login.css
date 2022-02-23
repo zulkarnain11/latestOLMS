@@ -1,0 +1,83 @@
+body{
+    overflow-x: hidden;
+}
+
+a{
+    color: #0d6efd;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.textInformation{
+    color: rgb(83, 100, 113);
+    margin-top: 1em;   
+}
+
+label{
+    color: rgb(64, 67, 70);
+    font-size: large;
+}
+.containerLogo{
+    width: 350px;
+    margin: 1em auto;
+}
+.containerLogo img{
+    width: 300px;
+}
+.containerLogin{
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+    left: 3em;
+}
+.showPassword{
+    color: rgb(64, 67, 70);
+    position: relative;
+    left: 5px;
+}
+form  {
+    display: block;
+    
+}
+.labelPassword{
+    margin-right: 1em;
+}
+.labelUsername{
+    margin-right: 0.8em;  
+}
+.labelIC{
+    margin-right: 0.8em;
+}
+input[type=text], input[type=password]{
+    outline-color: #0d6efd;
+    border-radius: 0.3em;
+    border-width: thin;
+    padding: 0.2em;
+}
+
+#warningPassword{
+    text-align: left;
+    color: rgb(255, 0, 0);
+    visibility: hidden;
+}
+#warningUsername{   
+    text-align: left;
+    color: rgb(255, 0, 0);
+    visibility: hidden;
+}
+#warningIC{  
+    text-align: left;
+    color: rgb(255, 0, 0);
+    visibility: hidden;
+}
+
+@media screen and (max-width: 414px){
+    .containerLogin{
+        width: 300px;
+        position: relative;
+        left: 1em;
+        
+    }
+}
+  

@@ -1,0 +1,91 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E8F0F2;
+}
+.containerLogo{
+    width: 100%;
+    height: fit-content;
+    background-color: #E8F0F2;
+
+}
+.logo{
+    width: 300px;
+    margin: 0 auto;
+}
+.logo img{
+    width: 300px;
+    height: 280px;
+}
+h1{
+    text-align: center;
+    color: #244b54;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 1em;
+}
+h5{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 0.2em;
+    color: rgb(82, 81, 81);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+}
+
+.mohoncuti-form{
+    display: block;
+    width: 500px;
+    margin: 1em auto;
+}
+
+.tb-container{
+    width: 700px;
+    margin: 1em auto;
+}
+.tb-title{
+    background-color: #113862;
+    color: #ffffff;
+    padding: 0.3em;
+}
+
+@media screen and (max-width: 765px){
+    h1{
+        width: 90%;
+        margin: 0 auto;
+    }
+    h5{
+        width: 90%;
+        padding-top: 0.5em;
+        padding-bottom: 3em;
+        font-size: 1.1rem;
+    }
+    .mohoncuti-form{
+        width: 90%;
+        margin: 1em auto;
+    }
+    .tb-container{
+        width: 90%;
+        margin: 1em auto;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    h1{
+        width: 300px;
+        margin: 0 auto;
+    }
+    h5{
+        width: 300px;
+        padding-top: 0.5em;
+        padding-bottom: 3em;
+        font-size: 1.1rem;
+    }
+    .mohoncuti-form{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .account-info{
+        width: 90%;
+    }
+}
